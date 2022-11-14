@@ -1,0 +1,3 @@
+D:/Project/ElectronBot/6.Tests/ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/clion_demo.dir
+D:/Project/ElectronBot/6.Tests/ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/ALL_BUILD.dir
+D:/Project/ElectronBot/6.Tests/ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\module\module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\module\module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4EA6798D-DA35-304E-9736-28894765223D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BD940B8-C0BF-3C46-BC13-9C784B66DEBF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

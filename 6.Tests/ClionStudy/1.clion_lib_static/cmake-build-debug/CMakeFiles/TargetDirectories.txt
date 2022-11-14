@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug/CMakeFiles/clion_lib_static.dir
+C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir

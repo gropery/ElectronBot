@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.clion_lib_shared\cmake-build-debug-visual-studio-64\CMakeFiles\d2f46564559dd453bdaea9baa192b2c3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{866912AC-2FC8-3EED-803B-5F026EF9870E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

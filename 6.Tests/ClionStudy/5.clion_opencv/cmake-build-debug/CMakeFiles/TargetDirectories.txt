@@ -1,0 +1,3 @@
+D:/Project/ElectronBot/6.Tests/ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir
+D:/Project/ElectronBot/6.Tests/ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Project/ElectronBot/6.Tests/ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/rebuild_cache.dir

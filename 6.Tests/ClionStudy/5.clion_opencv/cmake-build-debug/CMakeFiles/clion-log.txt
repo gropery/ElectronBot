@@ -1,0 +1,15 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S D:\Project\ElectronBot\6.Tests\ClionStudy\5.clion_opencv -B D:\Project\ElectronBot\6.Tests\ClionStudy\5.clion_opencv\cmake-build-debug
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc15
+-- OpenCV STATIC: OFF
+-- Found OpenCV: D:/Libraries/Cpp/opencv4.6.0/build (found version "4.6.0") 
+-- Found OpenCV 4.6.0 in D:/Libraries/Cpp/opencv4.6.0/build/x64/vc15/lib
+-- You might need to add D:\Libraries\Cpp\opencv4.6.0\build\x64\vc15\bin to your PATH to be able to run your applications.
+-- OpenCV library status:
+--     config: D:/Libraries/Cpp/opencv4.6.0/build
+--     version: 4.6.0
+--     libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_world
+--     include path: D:/Libraries/Cpp/opencv4.6.0/build/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Project/ElectronBot/6.Tests/ClionStudy/5.clion_opencv/cmake-build-debug

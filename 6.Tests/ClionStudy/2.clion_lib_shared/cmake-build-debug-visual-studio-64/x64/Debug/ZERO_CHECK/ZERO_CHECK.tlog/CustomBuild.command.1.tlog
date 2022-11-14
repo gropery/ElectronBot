@@ -1,0 +1,10 @@
+^D:\PROJECT\ELECTRONBOT\6.TESTS\CLIONSTUDY\2.CLION_LIB_SHARED\CMAKE-BUILD-DEBUG-VISUAL-STUDIO-64\CMAKEFILES\F995592893A443C2E8796B4842CB2DF7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -SD:/Project/ElectronBot/6.Tests/ClionStudy/2.clion_lib_shared -BD:/Project/ElectronBot/6.Tests/ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Project/ElectronBot/6.Tests/ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/clion_lib_shared.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

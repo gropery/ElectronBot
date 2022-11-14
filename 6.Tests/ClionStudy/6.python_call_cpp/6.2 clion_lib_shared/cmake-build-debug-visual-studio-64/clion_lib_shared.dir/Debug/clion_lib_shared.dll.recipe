@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.clion_lib_shared\cmake-build-debug-visual-studio-64\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.clion_lib_shared\cmake-build-debug-visual-studio-64\Debug\clion_lib_shared.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\cmake-build-debug\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\cmake-build-debug\Debug\module.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Project\ElectronBot\6.Tests\ClionStudy\3.clion_lib_exe\cmake-build-debug\Debug\clion_demo.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
