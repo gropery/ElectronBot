@@ -22,30 +22,30 @@
 - TestDisplayUSB: 根据网友提供的思路, 本人编写的单独测试舵机的固件, 分别用来测试单个和6个舵机
 
 ---
-`以下为本项目主要做的额外的一些学习和后续工作, 主要目的是将稚晖君提供的SDK移植为python可调用接口, 这样后期利用python的便利性, 便于结合机器学习, 图像识别, 目录地址为6.Tests/ClionStudy/****`
+# ==以下为本项目主要做的额外的一些学习和后续工作, 主要目的是将稚晖君提供的SDK移植为python可调用接口, 这样后期利用python的便利性, 便于结合机器学习, 图像识别, 目录地址为6.Tests/ClionStudy/*==
 
-C++ 生成与调用 dll 实验, 主要用来学习 clion和cmakelist
-1.clion_lib_shared:	只生成动态库的程序
-2.clion_lib_static:	只生成静态库的程序
-3.clion_lib_exe: 	调用2步生成的dll, 同时生成新动态库和exe的程序
-4.clion_exe: 	调用第3步生成的dll,生成exe程序
-5.clion_opencv:	app应用程序,调用opencv库
+## C++ 生成与调用 dll 实验, 主要用来学习 clion和cmakelist
+- 6.1 clion_lib_shared:	只生成动态库的程序
+- 6.2 clion_lib_static:	只生成静态库的程序
+- 6.3 clion_lib_exe: 	调用2步生成的dll, 同时生成新动态库和exe的程序
+- 6.4 clion_exe: 	调用第3步生成的dll,生成exe程序
+- 6.5 clion_opencv:	app应用程序,调用opencv库
 
-python 使用ctypes调用C++生成的dll 实验, 预演python接口
-6.1vs_lib_shared:		visual studio ide生成动态库程序, 用以被python调用
-6.2clion_lib_shared:		只生成动态库的程序, 其中.h文件中添加了extern "C" __declspec(dllexport), 用以被python调用
-6.3python:		python ctype调用第6.1步/第6.2步生成的dll
-6.4clion_lib_shared:		功能和6.2类似,只是代码实现方式有些区别
-6.5python:		功能和63类似,只是代码实现方式有些区别
+## python 使用ctypes调用C++生成的dll 实验, 预演python接口
+- 6.1vs_lib_shared:		visual studio ide生成动态库程序, 用以被python调用
+- 6.2clion_lib_shared:		只生成动态库的程序, 其中.h文件中添加了extern "C" __declspec(dllexport), 用以被python调用
+- 6.3python:		python ctype调用第6.1步/第6.2步生成的dll
+- 6.4clion_lib_shared:		功能和6.2类似,只是代码实现方式有些区别
+- 6.5python:		功能和63类似,只是代码实现方式有些区别
 
-针对ElectronBot项目, 将LowLevel重新封装dll, 并用python调用, 实现图像数据传输, 舵机数据设置和回传
-7.1 ElectronBotSDK-LowLevel:	重新修改封装了底层库dll
-7.2 PythonTestDisplayUSB:		调用7.1实现舵机数据设置并回传, 视频图像\摄像头图像\华为表盘图像(实现时间与天气)的传输
+## 针对ElectronBot项目, 将LowLevel重新封装dll, 并用python调用, 实现图像数据传输, 舵机数据设置和回传
+- 7.1 ElectronBotSDK-LowLevel:	重新修改封装了底层库dll
+- 7.2 PythonTestDisplayUSB:		调用7.1实现舵机数据设置并回传, 视频图像\摄像头图像\华为表盘图像(实现时间与天气)的传输
 
-libusb 模块使用, 主要用来学习libusb驱动使用
-8.libusb_demo/USB_VCP_Test:		STM32CubeMX生成的STM32 USB VCP HP 工程
-8.libusb_demo/USB_VCP_Test_libusbDriver:	对应的libusb安装驱动, 对应于STM32工程中修改VID, PID
-8.libusb_demo/libusb-win32-install-1.2.6.0.zip:	用于生成libsub驱动的程序
+## libusb 模块使用, 主要用来学习libusb驱动使用
+- 8.libusb_demo/USB_VCP_Test:		STM32CubeMX生成的STM32 USB VCP HP 工程
+- 8.libusb_demo/USB_VCP_Test_libusbDriver:	对应的libusb安装驱动, 对应于STM32工程中修改VID, PID
+- 8.libusb_demo/libusb-win32-install-1.2.6.0.zip:	用于生成libsub驱动的程序
 
 
 
