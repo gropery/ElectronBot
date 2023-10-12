@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Administrator\Desktop\clion_lib_static\module\fun.cpp">
+    <ClCompile Include="D:\Project\ElectronBot\6.Tests\ClionStudy\1.clion_lib_static\module\fun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Administrator\Desktop\clion_lib_static\CMakeLists.txt" />
+    <CustomBuild Include="D:\Project\ElectronBot\6.Tests\ClionStudy\1.clion_lib_static\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D95E7266-C69E-392E-8BF2-7EC7B2C8503C}</UniqueIdentifier>
+      <UniqueIdentifier>{173A12B6-0648-3DD1-A46E-6CC4F036B4E4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

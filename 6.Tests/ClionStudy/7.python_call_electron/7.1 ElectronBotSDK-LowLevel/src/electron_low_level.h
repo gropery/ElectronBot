@@ -25,7 +25,6 @@ public:
     bool Disconnect();
     bool Sync();
     void SetImageSrc(const uint8_t* _data);
-//    void SetImageSrc(const std::string &_filePath);
     void SetExtraData(uint8_t* _data, uint32_t _len = 32);
     void SetJointAngles(float _j1, float _j2, float _j3, float _j4, float _j5, float _j6,
                         bool _enable = false);
@@ -71,19 +70,20 @@ VSLIBDLL_API int mySync(ElectronLowLevel* e){
 }
 
 VSLIBDLL_API void mySetImageSrc(ElectronLowLevel* e, uint8_t arr[][240][3]){
+#if 1
     uint8_t *_data;
     _data = (uint8_t *) (void*) arr;
-
-//    uint8_t _data[240*240*3];
-//    uint32_t cnt=0;
-//    for (int i = 0; i < 240; ++i) {
-//        for (int j = 0; j < 240; ++j) {
-//            for (int k = 0; k < 3; ++k) {
-//                _data[cnt++] = arr[i][j][k];
-//            }
-//        }
-//    }
-
+#else
+    uint8_t _data[240*240*3];
+    uint32_t cnt=0;
+    for (int i = 0; i < 240; ++i) {
+        for (int j = 0; j < 240; ++j) {
+            for (int k = 0; k < 3; ++k) {
+                _data[cnt++] = arr[i][j][k];
+            }
+        }
+    }
+#endif
     e->SetImageSrc(_data);
 }
 

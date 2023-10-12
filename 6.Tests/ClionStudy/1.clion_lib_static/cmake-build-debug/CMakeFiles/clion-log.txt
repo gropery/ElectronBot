@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -G "Visual Studio 16 2019" -S C:\Users\Administrator\Desktop\clion_lib_static -B C:\Users\Administrator\Desktop\clion_lib_static\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -G "Visual Studio 16 2019" -S D:\Project\ElectronBot\6.Tests\ClionStudy\1.clion_lib_static -B D:\Project\ElectronBot\6.Tests\ClionStudy\1.clion_lib_static\cmake-build-debug
 -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22000.
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug
+-- Build files have been written to: D:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static/cmake-build-debug

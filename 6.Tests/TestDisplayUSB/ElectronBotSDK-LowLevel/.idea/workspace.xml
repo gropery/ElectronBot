@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="ElectronBotSDK-LowLevel" targetName="Sample" />
+      <config projectName="ElectronBotSDK-LowLevel" targetName="ElectronBotSDK-LowLevel" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Visual Studio-64" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio-64" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33a4412e-4abd-443f-a81e-3b6aebedf38a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../2.Firmware/ElectronBot-fw/UserApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.Firmware/ElectronBot-fw/UserApp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-LowLevel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-LowLevel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-LowLevel/src/electron_low_level.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-LowLevel/src/electron_low_level.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-Player/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-Player/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-UnityBridge/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../3.Software/SDK/ElectronBotSDK-UnityBridge/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/cache-v2-473f9c29d04716d1e4fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3fa2e9f90ea7abfe3146.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0f72c79242ad84bfe6b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-21T07-03-41-0627.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Debug-e10efa20ae45395853b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-e10efa20ae45395853b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-e10efa20ae45395853b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Release-e10efa20ae45395853b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-Debug-17974dfb55bb0720a245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-MinSizeRel-17974dfb55bb0720a245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-RelWithDebInfo-17974dfb55bb0720a245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-Release-17974dfb55bb0720a245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-clion_lib_static-Debug-94526f5a1a70b8159aa9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-clion_lib_static-MinSizeRel-da7471ffb11981dd30b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-clion_lib_static-RelWithDebInfo-c27562af85e7b8b01b31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/.cmake/api/v1/reply/target-clion_lib_static-Release-9b14395b1a26228582c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ALL_BUILD.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ALL_BUILD.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ALL_BUILD.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CompilerIdC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CompilerIdC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CMakeCCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CMakeCCompilerId.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CompilerIdCXX.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/x64/Debug/VCTargetsPath.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/x64/Debug/VCTargetsPath.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/3.23.2/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/b606a5daf82dfa8a0d494cd89bff1eba/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/generate.stamp.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/generate.stamp.list" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/CMakeFiles/generate.stamp.list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Debug/clion_lib_static.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Debug/clion_lib_static.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Debug/clion_lib_static.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Debug/clion_lib_static.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ZERO_CHECK.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ZERO_CHECK.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/ZERO_CHECK.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.lib.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.lib.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/CustomBuild.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib-link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib-link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib-link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib-link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/Lib.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/clion_lib_static.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/clion_lib_static.tlog/clion_lib_static.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/fun.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.dir/Debug/fun.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/1.clion_lib_static/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/cmakeFiles-v1-636b00ea90874ad332ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-2b373840d68c40bbd15e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-10-25T05-46-55-0882.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-ALL_BUILD-Debug-a331e4d9fcc3279b7b28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-a331e4d9fcc3279b7b28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-a331e4d9fcc3279b7b28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-ALL_BUILD-Release-a331e4d9fcc3279b7b28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/ALL_BUILD.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/CMakeFiles/generate.stamp.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/ZERO_CHECK.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/clion_lib_shared.dir/Debug/clion_lib_shared.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/clion_lib_shared.dir/Debug/clion_lib_shared.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/clion_lib_shared.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/clion_lib_shared.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/2.clion_lib_shared/cmake-build-debug-visual-studio-64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2ad03cc757f352491d78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-25T06-24-02-0613.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Debug-5dbc69327b00c34155c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-5dbc69327b00c34155c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-5dbc69327b00c34155c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Release-5dbc69327b00c34155c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-clion_demo-Debug-f7efb16f6381069da0fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-clion_demo-MinSizeRel-5231dee54e3f633c3ef6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-clion_demo-RelWithDebInfo-798476e8c9a2d959d1c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-clion_demo-Release-e942e120b046742ee990.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-module-Debug-2c1088cc32a7800e9b8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-module-MinSizeRel-f1948450186434d5d0b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-module-RelWithDebInfo-1ed0301a21597155abee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/.cmake/api/v1/reply/target-module-Release-404f5d306739ab7929f3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/3.clion_lib_exe/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/cmakeFiles-v1-6440817c36df15222102.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-954f03a8478ce7b741ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-10-25T06-19-36-0019.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-clion_demo-Debug-5ab95683bdf7d1018219.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-clion_demo-MinSizeRel-5e033a8fa72f4a74a098.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-clion_demo-RelWithDebInfo-9ddb97d6bb6641e04a2d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-clion_demo-Release-5b6d61c50642b0c05bf3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/ALL_BUILD.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/CMakeFiles/generate.stamp.depend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/ZERO_CHECK.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/clion_demo.dir/Debug/clion_demo.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/clion_demo.dir/Debug/clion_demo.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/clion_demo.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/clion_demo.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/4.clion_exe/cmake-build-debug-visual-studio-64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/.idea/clion_opencv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4e11e279ba1125ef8319.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-51b9bf994f3a612dd59e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1bd1911c56bfac2756f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-06T01-41-36-0661.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/target-clion_opencv-Debug-124e33a09e9acca1b287.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-d75ebd46ba06b898bbcc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/ShowIncludes/foo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/ShowIncludes/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/clion_opencv.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/clion_opencv.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/clion_opencv.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/clion_opencv.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClionStudy/5.clion_opencv/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/TestDisplayUSB.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/STM32F4 Firmware/ElectronBot-fw.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/ElectronBotSDK-LowLevel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/Sample.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/USBInterface.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/concrt140d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/happy.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/libusb0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/msvcp140d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/opencv_core348d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/opencv_imgcodecs348d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/opencv_imgproc348d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/opencv_videoio348d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/ucrtbased.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/vcruntime140_1d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Released/Windows EXE/vcruntime140d.dll" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio-64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.3" />
+  </component>
+  <component name="ProjectId" id="2WPgtZt4WnlNcutxMsyAFx6FIDl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/ElectronBot/6.Tests/TestDisplayUSB/ElectronBotSDK-LowLevel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.Sample">
+    <configuration name="ElectronBotSDK-LowLevel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ElectronBotSDK-LowLevel" TARGET_NAME="ElectronBotSDK-LowLevel" CONFIG_NAME="Debug-Visual Studio-64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ElectronBotSDK-LowLevel" TARGET_NAME="Sample" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="ElectronBotSDK-LowLevel" RUN_TARGET_NAME="Sample">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ElectronBotSDK-LowLevel" />
+      <item itemvalue="CMake Application.Sample" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33a4412e-4abd-443f-a81e-3b6aebedf38a" name="Changes" comment="" />
+      <created>1696639844676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696639844676</updated>
+      <workItem from="1696639845801" duration="139000" />
+      <workItem from="1696644305972" duration="2868000" />
+      <workItem from="1696748114143" duration="2149000" />
+      <workItem from="1696759177444" duration="18000" />
+      <workItem from="1696759206146" duration="2000" />
+      <workItem from="1696919497351" duration="586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

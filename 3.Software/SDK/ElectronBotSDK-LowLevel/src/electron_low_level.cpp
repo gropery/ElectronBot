@@ -11,8 +11,8 @@ bool ElectronLowLevel::Sync()
 {
     if (isConnected)
     {
-        if (syncTaskHandle.joinable())
-            syncTaskHandle.join();    //等待线程syncTaskHandle完成
+        if (syncTaskHandle.joinable()) //等待线程syncTaskHandle完成
+            syncTaskHandle.join();
 
         syncTaskHandle = std::thread(SyncTask, this);
 

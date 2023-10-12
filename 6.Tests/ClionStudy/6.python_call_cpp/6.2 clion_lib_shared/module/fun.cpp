@@ -2,7 +2,6 @@
 #include <vector>
 #include "fun.h"
 
-
 double Test::_calculate(int a, double b){
     double res = a+b;
     std::cout<<"res: "<<res<<std::endl;
@@ -23,7 +22,6 @@ int Test::getid()
 {
     return PID+VID;
 }
-
 
 // 创建对象
 Test* test_new(){

@@ -1,0 +1,9 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S D:\Project\ElectronBot\6.Tests\ClionStudy\5.clion_opencv -B D:\Project\ElectronBot\6.Tests\ClionStudy\5.clion_opencv\cmake-build-debug-visual-studio-64
+-- OpenCV library status:
+--     config: D:/Libraries/Cpp/opencv4.6.0/build/x64/vc15/lib
+--     version: 4.6.0
+--     libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_world
+--     include path: D:/Libraries/Cpp/opencv4.6.0/build/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Project/ElectronBot/6.Tests/ClionStudy/5.clion_opencv/cmake-build-debug-visual-studio-64

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/clion_lib_static
+# Install script for directory: D:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Project/ElectronBot/6.Tests/ClionStudy/6.python_call_cpp/7.clion_lib_shared
+# Install script for directory: D:/Project/ElectronBot/6.Tests/ClionStudy/6.python_call_cpp/6.4 clion_lib_shared
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Project/ElectronBot/6.Tests/ClionStudy/6.python_call_cpp/7.clion_lib_shared/cmake-build-debug-visual-studio-64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Project/ElectronBot/6.Tests/ClionStudy/6.python_call_cpp/6.4 clion_lib_shared/cmake-build-debug-visual-studio-64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

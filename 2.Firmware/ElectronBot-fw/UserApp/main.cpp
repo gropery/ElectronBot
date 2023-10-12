@@ -104,7 +104,6 @@ void Main(void)
     }
 }
 
-
 extern "C"
 void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef* hspi)
 {

@@ -3,7 +3,7 @@ project(clion_opencv)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(CMAKE_PREFIX_PATH   D:\\Libraries\\Cpp\\opencv4.6.0\\build)
+#set(CMAKE_PREFIX_PATH   D:\\Libraries\\Cpp\\opencv4.6.0\\build)
 
 # 搜索OpenCV目录
 find_package(OpenCV REQUIRED)

@@ -1,7 +1,5 @@
 #include "electron_low_level.h"
-
 using namespace cv;
-
 
 int main()
 {

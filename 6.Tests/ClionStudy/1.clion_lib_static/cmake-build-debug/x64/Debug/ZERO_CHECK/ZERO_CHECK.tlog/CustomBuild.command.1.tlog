@@ -1,6 +1,6 @@
-^C:\USERS\ADMINISTRATOR\DESKTOP\CLION_LIB_STATIC\CMAKE-BUILD-DEBUG\CMAKEFILES\B606A5DAF82DFA8A0D494CD89BFF1EBA\GENERATE.STAMP.RULE
+^D:\PROJECT\ELECTRONBOT\6.TESTS\CLIONSTUDY\1.CLION_LIB_STATIC\CMAKE-BUILD-DEBUG\CMAKEFILES\433C24D408720D7BAE65E118D14A299B\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/Administrator/Desktop/clion_lib_static -BC:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Administrator/Desktop/clion_lib_static/cmake-build-debug/clion_lib_static.sln
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -SD:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static -BD:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static/cmake-build-debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Project/ElectronBot/6.Tests/ClionStudy/1.clion_lib_static/cmake-build-debug/clion_lib_static.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

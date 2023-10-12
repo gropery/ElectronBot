@@ -2,7 +2,10 @@
 #include "electron_low_level.h"
 #include "USBInterface.h"
 
-
+/**
+ * 开启独立线程运行SyncTask
+ * @return
+ */
 bool ElectronLowLevel::Sync()
 {
     if (isConnected)
@@ -19,20 +22,14 @@ bool ElectronLowLevel::Sync()
     return false;
 }
 
-
+/**
+ * 三维数据填充至图像待发送buffer
+ * @param _mat
+ */
 void ElectronLowLevel::SetImageSrc(const uint8_t* _data)
 {
     std::memcpy(frameBufferTx[pingPongWriteIndex], _data, 240 * 240 * 3);
 }
-
-
-//void ElectronLowLevel::SetImageSrc(const string &_filePath)
-//{
-//    cv::Mat temp = cv::imread(_filePath);
-//    resize(temp, temp, cv::Size(240, 240));
-//    cvtColor(temp, temp, CV_BGRA2RGB);
-//    std::memcpy(frameBufferTx[pingPongWriteIndex], temp.data, 240 * 240 * 3);
-//}
 
 
 void ElectronLowLevel::SetExtraData(uint8_t* _data, uint32_t _len)
@@ -50,7 +47,13 @@ uint8_t* ElectronLowLevel::GetExtraData(uint8_t* _data)
     return extraDataBufferRx;
 }
 
-
+/**
+ * 从下位机接收数据包
+ * @param _buffer :数据缓存
+ * @param _packetCount :待接收数据包个数
+ * @param _packetSize :数据包大小
+ * @return 1:成功 0:失败
+ */
 bool ElectronLowLevel::ReceivePacket(uint8_t* _buffer, uint32_t _packetCount, uint32_t _packetSize)
 {
     uint32_t packetCount = _packetCount;
@@ -68,7 +71,13 @@ bool ElectronLowLevel::ReceivePacket(uint8_t* _buffer, uint32_t _packetCount, ui
     return packetCount == 0;
 }
 
-
+/**
+ * 发送数据包至下位机
+ * @param _buffer :数据缓存
+ * @param _packetCount :待发送数据包个数
+ * @param _packetSize :数据包大小
+ * @return 1:成功 0:失败
+ */
 bool ElectronLowLevel::TransmitPacket(uint8_t* _buffer, uint32_t _packetCount, uint32_t _packetSize)
 {
     uint32_t packetCount = _packetCount;
@@ -90,7 +99,10 @@ bool ElectronLowLevel::TransmitPacket(uint8_t* _buffer, uint32_t _packetCount, u
     return packetCount == 0;
 }
 
-
+/**
+ * 连接USB设备
+ * @return ture:成功连接 false:连接失败
+ */
 bool ElectronLowLevel::Connect()
 {
     int devNum = USB_ScanDevice(USB_PID, USB_VID);
@@ -109,7 +121,10 @@ bool ElectronLowLevel::Connect()
     return false;
 }
 
-
+/**
+ * 断开连接usb设备
+ * @return ture:断开成功 false:断开失败
+ */
 bool ElectronLowLevel::Disconnect()
 {
     if (syncTaskHandle.joinable())
@@ -124,7 +139,16 @@ bool ElectronLowLevel::Disconnect()
     return false;
 }
 
-
+/**
+ * 独立线程中运行以下程序
+ * 1.获取当前应操作的的pingpong缓存
+ * 2.每帧图像分4 p传输,每p发送 1/4帧数据(60*240*3) + 6个舵机角度值(32B) = 43200 + 32 = 43232 Bytes
+ * 3.每p中首先读取下位机发送过来的32Byte舵机角度数据,存储于extraDataBufferRx
+ * 4.然后从frameBufferTx中获取43008Bytes图像数据,发送84个512Byte的包发送至下位机
+ * 5.然后从frameBufferTx中获取1/4帧图像剩下的192Bytes(43200-43008),再拼接舵机的32B,组成224B,发送1次224Bytes的包至下位机
+ * 6.轮询步骤2-5,直至1帧图像发送完毕
+ * @param _obj
+ */
 void ElectronLowLevel::SyncTask(ElectronLowLevel* _obj)
 {
     uint32_t frameBufferOffset = 0;
@@ -152,6 +176,16 @@ void ElectronLowLevel::SyncTask(ElectronLowLevel* _obj)
     }
 }
 
+/**
+ *  设置6个舵机的模型角度float值,每个float转换成4B unsigned char类型,缓存于extraDataBufferTx
+ * @param _j1
+ * @param _j2
+ * @param _j3
+ * @param _j4
+ * @param _j5
+ * @param _j6
+ * @param _enable
+ */
 void ElectronLowLevel::SetJointAngles(float _j1, float _j2, float _j3, float _j4, float _j5, float _j6,
                                       bool _enable)
 {
@@ -173,7 +207,10 @@ void ElectronLowLevel::SetJointAngles(float _j1, float _j2, float _j3, float _j4
         }
 }
 
-
+/**
+ * 从extraDataBufferRx中转换得到6个舵机的float值
+ * @param _jointAngles 返回的6个舵机角度值
+ */
 void ElectronLowLevel::GetJointAngles(float* _jointAngles)
 {
     for (int j = 0; j < 6; j++)

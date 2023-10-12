@@ -6,12 +6,14 @@ project(clion_demo C CXX)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 14)
 
+#####################################################
+# 编译器预定义
+add_definitions(-DUSE_DEBUG -DUSE_HAL_DRIVER)
 # 头文件目录
 include_directories(
         src
         lib
         )
-
 # 编译器预定义
 add_definitions(-DUSE_DEBUG -DUSE_HAL_DRIVER)
 
@@ -20,12 +22,11 @@ file(GLOB_RECURSE SOURCES
         "src/*.*"
         "lib/*.*"
         )
-
 # 指定要链接的库文件路径
 link_directories(
         lib
 )
-
+#####################################################
 # 创建目标-可执行文件
 add_executable(clion_demo src/main.cpp)
 

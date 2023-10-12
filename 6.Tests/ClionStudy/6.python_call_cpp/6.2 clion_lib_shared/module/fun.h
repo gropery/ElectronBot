@@ -14,7 +14,7 @@ public:
 // 封装C接口
 extern "C"{
 
-// 创建对象
+// 导出函数
 API Test* test_new();
 API double my_calculate(Test* t, int a, double b, char c[], int * d, double * e, char ** f);
 API int my_getid(Test* t);

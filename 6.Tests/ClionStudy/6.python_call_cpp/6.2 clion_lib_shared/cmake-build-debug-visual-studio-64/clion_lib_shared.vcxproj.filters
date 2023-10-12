@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.clion_lib_shared\module\fun.cpp">
+    <ClCompile Include="D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.2 clion_lib_shared\module\fun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.clion_lib_shared\CMakeLists.txt" />
+    <CustomBuild Include="D:\Project\ElectronBot\6.Tests\ClionStudy\6.python_call_cpp\6.2 clion_lib_shared\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6C2DBAAE-9203-3DE6-B5C5-22A9BAA5E29B}</UniqueIdentifier>
+      <UniqueIdentifier>{49181F08-09E4-34D3-A626-6520331EA8BF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
